@@ -1,6 +1,23 @@
+body {
+    background-color: rgba(116, 116, 116, 0.125);
+}
 #Destaques, #Banner, #Carrosel{
-    background: rgba(6, 24, 37, 0.07);
+    background: rgba(106, 240, 240, 0.924);
     padding: 30px;
     margin-top: 30px;
 }
-#Rodape{}
+#Rodape {
+    margin: 30px;
+    
+    
+
+}
+#Rodape .row .col-2 img{
+    width: 30%;
+    margin-right: 20px;
+    
+}
+.img-direita {
+    text-align: right  ;
+}
+
