@@ -1,7 +1,7 @@
 body {
     background-color: rgba(116, 116, 116, 0.125);
 }
-#Destaques, #Banner, #Carrosel{
+#destaques, #banner, #galeria{
     background: rgba(106, 240, 240, 0.924);
     padding: 30px;
     margin-top: 30px;
@@ -19,5 +19,12 @@ body {
 }
 .img-direita {
     text-align: right  ;
+}
+.texto-centralizado {
+    text-align: center;
+
+}
+#carrosel {
+    margin: center;
 }
 
