@@ -20,11 +20,17 @@
                 <H3>Monte aqui o computador
                     que você sempre sonhou</H3>
             </div>
+
             <div class="col-3">
                 <img src="Imagens/IconePesquisa.png" alt="">
-                <img src="Imagens/IconeUsuarioMenu.png" alt="">
+                <img src="Imagens/IconeUsuarioMenu.png" alt="" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false" class=" dropdown-toggle">
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Login</a></li>
+                    <li><a class="dropdown-item" href="#">Contato</a></li>
+                    <li><a class="dropdown-item" href="#">Perifericos e jogos</a></li>
+                </ul>
             </div>
-
         </div>
     </header>
     <section id="banner">
@@ -74,18 +80,51 @@
             </div>
         </div>
     </section>
+    <!--começo do carrosel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagens/Imagem-assassins-creed .jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Assasins Creed Syndicate</h3>
+                    <h5>Jogo de ação e aventura bastante insano</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/Imagem2-Dark-Souls.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Dark Souls </h3>
+                    <h5>Jogo de ação bem frenetico, considerado por muitos um dos jogos mais difíceis</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/Imagem-God-Of-War.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>God Of War Ragnarok</h3>
+                    <h5>Jogo de ação com o personagem principal sendo um deus da guerra tentando proteger seu filho</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-    <section id="carrosel">
-        <h1 class="texto-centralizado">Carrosel</h1>
-
-        <img src="Imagens/Imagem-assassins-creed .jpeg" alt="">
-
-        <img src="Imagens/Imagem-God-Of-War.jpeg" alt="">
-        <img src="Imagens/Imagem2-Dark-Souls.jpeg" alt="">
-
-
-
-    </section>
     <section id="Rodape">
         <div class="row">
             <div class="col-3">
@@ -104,6 +143,10 @@
             </Div>
         </div>
     </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
